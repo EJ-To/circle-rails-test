@@ -1,0 +1,3 @@
+dependencies:
+  pre:
+    - gem install byebug -v '5.5.0'
