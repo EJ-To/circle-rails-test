@@ -30,4 +30,5 @@ test:
   username: ubuntu 
   database: circle_test 
   adapter: mysql2 
-  encoding: utf8 
+  encoding: utf8
+  url: <%= ENV["DATABASE_URL"] %>
