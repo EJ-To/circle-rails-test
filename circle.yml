@@ -8,6 +8,8 @@ machine:
   environment:
     XCODE_SCHEME: dummy
     XCODE_WORKSPACE: dummy
+  xcode:
+    version: "6.4"
 
 dependencies:
   override:
