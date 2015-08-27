@@ -1,6 +1,9 @@
 machine:
   ruby:
     version: 2.2.1
+  environment:
+    XCODE_SCHEME: dummy
+    XCODE_WORKSPACE: dummy
 
 dependencies:
   override:
