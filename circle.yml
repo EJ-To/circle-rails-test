@@ -15,4 +15,3 @@ dependencies:
   override:
     - bundle install
     - bundle show sprockets
-    - echo "something"
