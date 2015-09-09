@@ -10,3 +10,7 @@ dependencies:
   override:
     - bundle install
     - bundle show sprockets
+
+database:
+  post:
+    - export RAILS_ENV="test"; export RACK_ENV="test"; bundle exec rake db:structure:load --trace
