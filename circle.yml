@@ -5,11 +5,6 @@ machine:
   #   - \curl -sSL https://get.rvm.io | bash -s stable
   # ruby:
   #   version: 2.2.1
-  environment:
-    XCODE_SCHEME: dummy
-    XCODE_WORKSPACE: dummy
-  xcode:
-    version: "6.4"
 
 dependencies:
   override:
