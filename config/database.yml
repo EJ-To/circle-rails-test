@@ -24,11 +24,11 @@ production:
   <<: *default
   database: db/production.sqlite3
 
-# test: 
+test: 
 #   socket: /var/run/mysqld/mysqld.sock 
 #   host: localhost 
 #   username: ubuntu 
 #   database: circle_test 
-#   adapter: mysql2 
+  adapter: postgresql
 #   encoding: utf8
 #   url: <%= ENV["DATABASE_URL"] %>
