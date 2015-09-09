@@ -6,10 +6,10 @@ machine:
   ruby:
     version: 2.2.1
 
-dependencies:
-  override:
-    - bundle install
-    - bundle show sprockets
+# dependencies:
+#   override:
+#     - bundle install
+#     - bundle show sprockets
 
 database:
   post:
