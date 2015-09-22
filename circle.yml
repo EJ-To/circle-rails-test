@@ -5,6 +5,9 @@ machine:
   #   - \curl -sSL https://get.rvm.io | bash -s stable
   ruby:
     version: 2.2.1
+  pre:
+    - echo Y | gem uninstall -i $(which bundler | sed -e 's@/bin/bundler$@@g') bundler
+    - gem install bundler --pre
 
 # dependencies:
 #   override:
